@@ -1,7 +1,16 @@
-# simple-discord-chatbot-js
-This is the starter project for the lecture "Making a Simple Discord Chatbot with JS".
+## Discord Chatbot
+#정보처리기사 온라인 스터디시 필요한 기능들을 제작
 
-"JS로 간단한 Discord 챗봇 만들기" 강의에서 사용할 스타터 프로젝트입니다.
+## 학습환경
+#vsc 
+#node.js - LTS ver
+
+## 학습내용
+#JS로 간단한 디스코드 챗봇 만들기
+
+1. 인사 받아주는 기능✔ 
+2. 투표 기능 - ✔
+3. set Interval - api사용✔
 
 # Getting Started
 1. Install all dependencies
