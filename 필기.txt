@@ -1,0 +1,44 @@
+<JS로 간단한 DISCORD 챗봇만들기>
+
+사전 준비
+-디스코드 계정 v
+-테스트용 디스코드 서버 v
+-노드js환경 v
+-VSC v
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+1. 깃허브에서 스타터 프로그램 다운 https://github.com/taeukme/simple-discord-chatbot-js
+2. node -v       노트 버전확인후
+3. npm install    npm 설치
+4. npm run dev
+5. https://discord.com/developers/applications
+  -> 이름 작성
+  -> Bot -> addBot
+  -> TOKEN copy
+  -> config.json 에 붙여넣기
+  ->genarl information 의 클라이언트 id copy
+  ->https://finitereality.github.io/permissions-calculator/?v=8 (권한부여부분- 관리자권한 부여)
+  ->아래에 붙여넣기 -> ADD
+  ->서버 선택후 계속하기
+  ->승인
+6.디스코드에 채팅 남겨보기
+  ->vs터미널에 onMessage! 가 뜨는지 확인
+7. VSC 코드 확인(일일이 코드 추가했음)
+
+ -------인사하면 인사 받아주는 / 투표기능
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
++ 새로하는거 --------- 셋인터벌 - api코드, 
+
+1.터미널 우측에 하나 더 나누고 npm install is-up
+2.VSC코드 확인(일일이 코드 추가했음)
+3.디스코드의 설정 -> 디스플레이 -> 고급의 개발자모드 켜기
+4.채팅채널(일반) 을 우측클릭하여 아이디 복사 -> onceReady.js 에
+  const channelId = "814801440265863211";  추가
+5.VSC코드 확인 (일일이 코드 추가했음)
+
+
+사이트
+top.gg  -> 에서 봇으로 돈버는사람도 있다.
+discord.js guide -> 오디오,비디오 등 여러가지 확인
+
